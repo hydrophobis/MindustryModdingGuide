@@ -88,7 +88,7 @@ Note that each one of these subdirectories needs a specific content type. The fi
 Furthermore the files within these content/<content-type>/* directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:
 
 content/items/metals/iron.hjson, which would respectively create an item named iron.
-The content of these files will tend to look something like this:
+The content of these files will tend to look something like this: <br>
 `
 type: TypeOfThing // This is the name of the type you are using, these are found on the wiki. Example: GenericCrafter, uses inputs to create outputs<br>
 name: Name Of Thing // This is what is displayed in game, can be omitted and defined in a bundle instead<br>
