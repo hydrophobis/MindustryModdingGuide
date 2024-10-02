@@ -1,5 +1,5 @@
 # Mindustry Modding Guide
-`Note that a lot of information is from mindustrygame.github.io/wiki
+Note that a lot of information is from mindustrygame.github.io/wiki
 
 ## Modding Introduction
 (from wiki, edited) Mindustry mods are simply directories of assets. There are many ways to use the modding API, depending on exactly what you want to do, and how far you're willing to go to do it.
@@ -89,7 +89,7 @@ Furthermore the files within these content/<content-type>/* directories may be a
 
 content/items/metals/iron.hjson, which would respectively create an item named iron.
 The content of these files will tend to look something like this:
-
+`
 type: TypeOfThing // This is the name of the type you are using, these are found on the wiki. Example: GenericCrafter, uses inputs to create outputs<br>
 name: Name Of Thing // This is what is displayed in game, can be omitted and defined in a bundle instead<br>
 description: Description of thing.<br>
