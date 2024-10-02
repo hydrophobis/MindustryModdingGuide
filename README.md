@@ -11,20 +11,20 @@ Sharing your mod is as simple as giving someone your project directory; mods are
 ## Directory Structure
 Your project directory should look something like this:
 
-mod_folder
-├── mod.hjson
-├── content
-│   ├── items
-│   ├── blocks
-│   ├── liquids
-│   └── units
-├── maps
-├── bundles
-├── sounds
-├── schematics
-├── scripts
-├── sprites-override
-└── sprites
+mod_folder<br>
+├── mod.hjson<br>
+├── content<br>
+│   ├── items<br>
+│   ├── blocks<br>
+│   ├── liquids<br>
+│   └── units<br>
+├── maps<br>
+├── bundles<br>
+├── sounds<br>
+├── schematics<br>
+├── scripts<br>
+├── sprites-override<br>
+└── sprites<br>
 
 mod.hjson (required) metadata file for your mod which contains your mod name, identifier(prefix the game loads your content with), description, mod icon for the mod browser, whether or not your mod is in Java, and GitHub Repository location,
 
