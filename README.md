@@ -89,24 +89,24 @@ Furthermore the files within these content/<content-type>/* directories may be a
 
 content/items/metals/iron.hjson, which would respectively create an item named iron.
 The content of these files will tend to look something like this: <br>
-`
-type: TypeOfThing // This is the name of the type you are using, these are found on the wiki. Example: GenericCrafter, uses inputs to create outputs<br>
-name: Name Of Thing // This is what is displayed in game, can be omitted and defined in a bundle instead<br>
-description: Description of thing.<br>
-consumes: {<br>
-  /* This is the amount of power it consumes **per frame**, meaning you multiply this value by 60 to get the power per second usage. Or take the power per second consumption you want and divide <br>it by 60 to get the amount you put there \*/<br>
-  power: 0.5, // Consumes 30 power per second<br>
-  liquids: {<br>
-    liquids: [<br>
-      /* This is the amount of liquid it consumes **per frame**, meaning you multiply this value by 60 to get the liquid per second usage. Or take the liquid per second consumption you want and  <br>          divide it by 60 to get the amount you put there */<br>
+```
+type: TypeOfThing // This is the name of the type you are using, these are found on the wiki. Example: GenericCrafter, uses inputs to create outputs
+name: Name Of Thing // This is what is displayed in game, can be omitted and defined in a bundle instead
+description: Description of thing.
+consumes: {
+  /* This is the amount of power it consumes **per frame**, meaning you multiply this value by 60 to get the power per second usage. Or take the power per second consumption you want and divide <br>it by 60 to get the amount you put there \*/
+  power: 0.5, // Consumes 30 power per second
+  liquids: {
+    liquids: [
+      /* This is the amount of liquid it consumes **per frame**, meaning you multiply this value by 60 to get the liquid per second usage. Or take the liquid per second consumption you want and            divide it by 60 to get the amount you put there */
       water/1 // consumes 60 water per second<br>
-    \]<br>
-  },<br>
-  items:{<br>
-    items: [<br>
+    \]
+  },
+  items:{
+    items: [
       copper/2 // Consumes two copper per craft<br>
-    \]<br>
-  }<br>
+    \]
+  }
   
-}<br>
-`
+}
+```
