@@ -1,5 +1,5 @@
 # Mindustry Modding Guide
-Note that a lot of information is from mindustrygame.github.io/wiki
+`Note that a lot of information is from mindustrygame.github.io/wiki
 
 ## Modding Introduction
 (from wiki, edited) Mindustry mods are simply directories of assets. There are many ways to use the modding API, depending on exactly what you want to do, and how far you're willing to go to do it.
@@ -109,3 +109,4 @@ consumes: {<br>
   }<br>
   
 }<br>
+`
